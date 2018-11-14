@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function find(a,b,c) {
+        if (a > b)
+            {if (b>c){
+                alert(c+" la so be nhat");
+            } else {
+                alert(b+" la so be nhat");
+            }
+
+        } else if (a <c){
+            alert( a + " la so be nhat")
+        } else  {
+            alert( c + " la so be nhat")
+        }
+
+    }
+
+    var a = prompt("Nhap so thu nhat");
+    var b = prompt("Nhap so thu hai");
+    var c = prompt("Nhap so thu ba");
+if ( a % 1 != 0 || b%1!= 0 || c%1 != 0) {
+    alert("moi ban nhap lai");
+}else {
+
+    find(a, b, c);
+}
+
+</script>
+</body>
+</html>

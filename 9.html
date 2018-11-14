@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+   var a = ["/",".","/","(","(","(","("];
+    let j = 0;
+    function check(symbol) {
+        for (let i = 0; i < a.length; i++ ){
+            if (symbol == a[i]){
+
+                j++ ;
+            }
+        }
+        if (j != 0){
+            alert( symbol + " xuat hien " + j + "lan ");
+        }else {
+            alert(-1);
+        }
+
+    }
+       var n = prompt("");
+    check(n);
+</script>
+</body>
+</html>
